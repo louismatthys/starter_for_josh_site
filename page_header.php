@@ -90,7 +90,7 @@
         </div>
       </nav>
 <div class="smallpage-tag">
-      <h1 class=smallpage-title>Projects</h1>
+      <h1 class="smallpage-title">Projects</h1>
     </div>
 </div> <!-- container -->
 <?php wp_head(); ?> <!-- very important that this code is added-->
