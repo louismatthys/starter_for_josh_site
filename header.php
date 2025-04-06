@@ -60,7 +60,7 @@
 </head>
 <body>
 
-<header class="container-fluid bg1">
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
     <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
@@ -87,10 +87,10 @@ wp_nav_menu( array(
 ?>
 
       </nav>
-<div class="tag">
-      <h1>Games Design for the future</h1>
-    </div>
-</div> <!-- container -->
+      <div class="tag"><!-- div that holds the content in the middle of the page-->
+        <h1><?php the_field('maintagline'); ?></h1>
+              </div><!-- container-->
+
 <?php wp_head(); ?> <!-- very important that this code is added-->
 
 </header> <!-- fluid container -->
